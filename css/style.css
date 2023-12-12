@@ -1,0 +1,136 @@
+
+body {
+    min-height: 100vh;
+    /*background-image: url(../img/gallina.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;*/
+
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(80, 80, 80, 0.3)),
+    url(../img/gallina.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    
+}
+
+.conttitle {
+    background-color: rgba(123, 27, 27);
+    width: 90%;
+    height: 90px;
+    display: grid ;
+    place-items: left;
+    margin: 4px auto;
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left ;
+    align-items: center;
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.title {
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0 auto;
+  
+}
+
+.contenedor {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+/*header {
+    background: rgba(0,0,0,0.7);
+    width: 90%;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 100;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+  }*/
+
+  header  {
+    background-color: rgb(123, 27, 27);
+
+    width: 90%;
+    position: fixed;
+    margin: 4px auto;
+    z-index: 50;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center; 
+    height: 90px;    
+    position: sticky;
+    top: 0;
+    
+
+  }
+
+nav {
+    float: center;
+  }
+
+
+  nav ul {
+    list-style: none;
+    overflow:hidden ;
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  nav ul li a {
+    display: block ;
+    padding: 30px;
+    padding-left: 125px;
+    padding-right: 125px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }
+
+
+
+
+  
+    
